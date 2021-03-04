@@ -1,0 +1,15 @@
+<div class="countriesCont">
+
+    {{#each data}}
+    <div class="countryInfo">
+        <h2 class="countryName">{{this.name}}</h2>
+
+        <img src="{{this.flag}}" class="countryFlag" />
+
+        <h2 class="countryLang">Speaks {{this.languages.[0].name}}</h2>
+        <h3 class="countryNativeLang">native way: {{this.languages.[0].nativeName}}</h3>
+
+    </div>
+    {{/each}}
+
+</div>

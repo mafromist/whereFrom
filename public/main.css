@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.countriesCont {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    justify-content: center;
+    margin: 0 auto;
+}
+.countryInfo {
+    box-sizing: border-box;
+    border: 5px dotted olive;
+}
+
+.countryFlag {
+    width: 200px;
+    height: 150px;
+}
+ul{
+    margin: 0;
+}
+li{ 
+    list-style: none;
+}
+
+.header{
+    display:  flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbarArea {
+    margin-right: 5%;
+}
